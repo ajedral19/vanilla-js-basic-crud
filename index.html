@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <title>Blog</title>
+  </head>
+  <body>
+    <!-- <header>
+      <nav>
+        <div class="container nav-container">
+          <div class="nav-controls">
+            <button class="btn btn-primary btn-create-post">create post</button>
+          </div>
+        </div>
+      </nav>
+    </header> -->
+    <main>
+      <div class="container">
+        <div class="form">
+          <h2 class="c-mb-2">Sign up</h2>
+          <!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+          <div class="form-wrap register mt-2">
+            <label data-name="firstName" class="field">
+              <span class="label">First Name</span>
+              <input
+                type="text"
+                class="input"
+                autocomplete="off"
+                title="Fist Name"
+                name="firstName"
+              />
+            </label>
+            <label data-name="lastName" class="field">
+              <span class="label">Last Name</span>
+              <input
+                type="text"
+                class="input"
+                autocomplete="off"
+                name="lastName"
+              />
+            </label>
+            <label
+              data-name="email"
+              data-pattern="[a-zA-Z\d^-_.]{2,}@[a-zA-Z\d^.-]+[.]+[a-zA-Z]"
+              class="field"
+            >
+              <span class="label">Email</span>
+              <input
+                type="text"
+                class="input"
+                autocomplete="off"
+                name="email"
+              />
+            </label>
+            <label data-name="username" class="field">
+              <span class="label">username</span>
+              <input
+                type="text"
+                class="input"
+                autocomplete="off"
+                title="Username"
+                name="username"
+              />
+            </label>
+            <label data-name="password" data-pattern="[^]{6,}" class="field">
+              <span class="label">Password</span>
+              <input
+                type="password"
+                class="input"
+                autocomplete="off"
+                name="password"
+              />
+            </label>
+            <label data-name="repassword" class="field">
+              <span class="label">Confirm Password</span>
+              <input
+                type="password"
+                class="input"
+                autocomplete="off"
+                name="repassword"
+              />
+            </label>
+            <button class="btn btn-primary btn-fluid form-btn submit">
+              sign up
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- <div class="post-list"> -->
+    <!-- <div class="card">
+        <div class="card-cover"></div>
+        <h3 class="card-title c-mb-1">
+          Developers all need a portfolio website
+        </h3>
+        <p>
+          EnableBoop -
+          <span>Sep 25</span>
+        </p>
+      </div> -->
+    <!-- </div> -->
+    <!-- <span class="toast success">
+        <span class="message"></span>
+        <i class="icn-btn mini hide-toast-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6.66 6.66">
+            <g id="Layer_2" data-name="Layer 2">
+              <g id="Layer_1-2" data-name="Layer 1">
+                <line
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="cls-1"
+                  x1="0.5"
+                  y1="6.16"
+                  x2="6.16"
+                  y2="0.5"
+                />
+                <line
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  class="cls-1"
+                  x1="6.16"
+                  y1="6.16"
+                  x2="0.5"
+                  y2="0.5"
+                />
+              </g>
+            </g>
+          </svg>
+        </i>
+      </span> -->
+
+    <script type="module" src="scripts/register.js"></script>
+  </body>
+</html>
